@@ -1,0 +1,38 @@
+{"intents": [
+        {
+            "tag": "greetings",
+            "patterns": ["hello", "hey", "hi", "good day", "greetings"],
+            "responses": ["Hello!", "Hi there!", "Greetings!", "Hey! How can I assist you?"]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": ["bye", "see you later", "goodbye", "talk to you later"],
+            "responses": ["Goodbye!", "See you later!", "Take care!"]
+        },
+        {
+            "tag": "thanks",
+            "patterns": ["thanks", "thank you", "much appreciated", "thanks a lot"],
+            "responses": ["You're welcome!", "No problem!", "Glad to help!", "Anytime!"]
+        },
+        {
+            "tag": "name",
+            "patterns": ["what is your name", "who are you", "tell me your name"],
+            "responses": ["I'm ChatBot!", "You can call me ChatBot.", "My name is ChatBot!"]
+        },
+        {
+            "tag": "weather",
+            "patterns": ["how's the weather", "tell me the weather", "what's the weather like"],
+            "responses": ["I'm not sure, but you can check the weather app!", "It's always sunny in here."]
+        },
+        {
+            "tag": "help",
+            "patterns": ["help", "i need help", "can you assist me", "i need assistance"],
+            "responses": ["Of course! How can I help you?", "I'm here to assist you, tell me what you need."]
+        },
+        {
+            "tag": "unknown",
+            "patterns": [],
+            "responses": ["Sorry, I didn't understand that.", "Could you please rephrase?"]
+        }
+    ]
+}
